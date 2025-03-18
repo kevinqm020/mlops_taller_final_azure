@@ -19,7 +19,7 @@ stages:
 
     - script: |
         pip install -r requirements.txt
-        python train.py
+        python train_prestamos.py
       displayName: "Entrenar modelo con MLflow"
 
     - task: PublishBuildArtifacts@1
