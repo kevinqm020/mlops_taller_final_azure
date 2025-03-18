@@ -2,7 +2,7 @@ trigger:
 - main  # Ejecutar en cada push a main
 
 pool:
-  name: 'Hosted Agent'  # Usar el agente local
+  name: 'Azure Pipelines'  # Usar el agente local
 
 stages:
 - stage: TrainModel
