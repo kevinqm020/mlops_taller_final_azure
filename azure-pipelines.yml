@@ -2,7 +2,7 @@ trigger:
 - main  # Ejecutar en cada push a main
 
 pool:
-  name: 'LocalPool'  # Usar el agente local
+  name: 'Hosted Agent'  # Usar el agente local
 
 stages:
 - stage: TrainModel
